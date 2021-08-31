@@ -127,7 +127,8 @@ header {
 }
 .servicio p {
     font-size: 1.6rem;
-    color: #f8a5c2;   
+    color: #f8a5c2;
+    text-align: center;   
 }
 .contacto h2 {
     font-weight: normal;
