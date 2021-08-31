@@ -12,12 +12,12 @@ body {
 }
 .btn {
     background: #222;
-    color: #f8a5c2;
+    color: #fff;
     font-size: 2rem;
     margin-top: 30px;
     padding: 1rem 3rem;
     text-decoration: none;
-    border: .3rem solid #f8a5c2;
+    border: .3rem solid #fff;
     border-radius: .8rem;
     
 }
@@ -29,13 +29,13 @@ header {
     font-weight: normal;
     text-align: center;
     font-size: 4rem;
-    color: #f8a5c2;
+    color: #fff;
 }
 #bar {
     display: none;
 }
 .menu {
-    color: #f8a5c2;
+    color: #fff;
     font-size: 3.6rem;
     margin-left: 1rem;
     cursor: pointer;
@@ -62,7 +62,7 @@ header {
     transition: all .5s;
 }
 .nav a {
-    color: #f8a5c2;
+    color: #fff;
     padding: 2rem;
     text-decoration: none;
 }
@@ -90,14 +90,14 @@ header {
     align-items: center;
 }
 .contenido-lap h2 {
-    color: #f8a5c2;
+    color: #fff;
     font-weight: normal;
     font-size: 2.8rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
 .contenido-lap p {
-    color: #f8a5c2;
+    color: #fff;
     font-size: 1.6rem;
 }
 .sombra {
@@ -108,7 +108,7 @@ header {
     margin-bottom: 2rem;
 }
 .sombra h2 {
-    color: #f8a5c2;
+    color: #fff;
     font-weight: normal;
     font-size: 3.2rem;
     margin-top: 2rem;
@@ -123,17 +123,17 @@ header {
 .servicio h3 {
     font-weight: normal;
     font-size: 2.4rem;
-    color: #f8a5c2;
+    color: #fff;
 }
 .servicio p {
     font-size: 1.6rem;
-    color: #f8a5c2;
+    color: #fff;
     text-align: center;   
 }
 .contacto h2 {
     font-weight: normal;
     font-size: 3.2rem;
-    color: #f8a5c2;
+    color: #fff;
     margin-top: 2rem;
     margin-bottom: 2rem;
     text-align: center;
@@ -147,7 +147,7 @@ header {
     width: 15rem;
     height: 15rem;
     background: #333;
-    border: .5rem solid #f8a5c2;
+    border: .5rem solid #fff;
     border-radius: 2rem;
     display: flex;
     justify-content: space-evenly;
@@ -180,7 +180,7 @@ header {
     width: 100%;
     background: #222;
     padding: 1rem;
-    border: .2rem solid #f8a5c2;
+    border: .2rem solid #fff;
     border-radius: .8rem;
 }
 .campo textarea {
@@ -191,15 +191,15 @@ header {
     min-height: 20rem;
     max-height: 20rem;
     padding: 1rem;
-    border: .2rem solid #f8a5c2;
+    border: .2rem solid #fff;
     border-radius: .8rem;
 }
 .campo input::placeholder {
-    color: #f8a5c2;
+    color: #fff;
 }
 .campo textarea::placeholder {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #f8a5c2;
+    color: #fff;
 }
 .campo:nth-child(3),
 .campo:nth-child(4) {
@@ -213,7 +213,7 @@ header {
     padding: 1rem;
 }
 .footer p {
-    color: #f8a5c2;
+    color: #fff;
     font-size: 1.4rem;
 }
 .footer img {
@@ -240,7 +240,4 @@ header {
         flex-direction: column;
         align-items: center;
     }
-               
-
-    
 }
