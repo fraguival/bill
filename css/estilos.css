@@ -174,28 +174,33 @@ header {
 .campo input {
     display: block;
     width: 100%;
-    background: #fff;
+    background: #222;
+    color: #fff;
+    font-size: 1.6rem;
     padding: 1rem;
-    border: .2rem solid #222;
+    border: .2rem solid #fff;
     border-radius: .8rem;
 }
 .campo textarea {
     display: block;
-    background: #fff;
+    background: #222;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.6rem;
     max-width: 100%;
     min-width: 100%;
     min-height: 20rem;
     max-height: 20rem;
     padding: 1rem;
-    border: .2rem solid #222;
+    border: .2rem solid #fff;
     border-radius: .8rem;
 }
 .campo input::placeholder {
-    color: #222;
+    color: #fff;
 }
 .campo textarea::placeholder {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #222;
+    color: #fff;
 }
 .campo:nth-child(3),
 .campo:nth-child(4) {
