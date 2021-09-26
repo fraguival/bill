@@ -231,6 +231,7 @@ header {
         flex-direction: row;
         justify-content: space-between;
         position: static;
+        height: 60px;
         transform: scale(1);
     }
     .menu {
