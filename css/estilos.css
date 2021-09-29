@@ -140,7 +140,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.servicio__iconos {
+.servicio .iconos {
     width: 15rem;
     height: 15rem;
     background: #333;
