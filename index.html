@@ -11,29 +11,30 @@
 </head>
 <body>
 
-    <header>
-        <h1 class="titulo">Francisco G Valdez M.</h1>
+    <header class="header">
+        <h1 class="header__titulo">Francisco G Valdez M.</h1>
     </header>
+
         <div class="nav-bg"> 
             <input type="checkbox" id="bar">
-            <label for="bar" class="menu">&#8801</label>
+            <label for="bar" class="nav-bg__label">&#8801</label>
        
     
         <nav class="nav contenedor">
-            <a href="#">Inicio</a>
-            <a href="#">Sobre mi</a>
-            <a href="#">Clientes</a>
-            <a href="#">Contacto</a>
+            <a class="nav__a" href="#">Inicio</a>
+            <a class="nav__a" href="#">Sobre mi</a>
+            <a class="nav__a" href="#">Clientes</a>
+            <a class="nav__a" href="#">Contacto</a>
         </nav>
     </div>
     
 
     <section class="lap">
         <div class="contenido-lap">
-            <h2>Diseño y Desarrollo Web</h2>
+            <h2 class="lap__subtitulo">Diseño y Desarrollo Web</h2>
             
-            <p>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <p class="lap__texto">
+                <svg class="lap__icono" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <circle cx="12" cy="11" r="3" />
                     <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
@@ -44,11 +45,12 @@
     </section>
 
     <main class=" contenedor sombra">
-        <h2>Mis Servicios</h2>
+        <h2 class="sombra__subtitulo">Mis Servicios</h2>
+
         <div class="servicios">
 
     <section class="servicio">
-        <h3>Diseño Web</h3>
+        <h3 class="servicio__subtitulo">Diseño Web</h3>
         <div class="iconos">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-palette" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -58,11 +60,11 @@
                 <circle cx="16.5" cy="10.5" r=".5" fill="currentColor" />
               </svg>
         </div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam illo quia optio earum, ratione quidem pariatur delectus inventore? Ducimus, obcaecati?</p>
+        <p class="servicio__texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam illo quia optio earum, ratione quidem pariatur delectus inventore? Ducimus, obcaecati?</p>
     </section>
 
     <section class="servicio">
-        <h3>movil apps</h3>
+        <h3 class="servicio__subtitulo">movil apps</h3>
         <div class="iconos">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-android" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -80,11 +82,11 @@
                 <path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2" />
               </svg>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi et reprehenderit nobis nulla, necessitatibus hic corrupti accusamus adipisci quae dolore!</p>
+        <p class="servicio__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi et reprehenderit nobis nulla, necessitatibus hic corrupti accusamus adipisci quae dolore!</p>
     </section>
 
     <section class="servicio">
-        <h3>Ecommerce</h3>
+        <h3 class="servicio__subtitulo">Ecommerce</h3>
         <div class="iconos">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-credit-card" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -94,28 +96,28 @@
                 <line x1="11" y1="15" x2="13" y2="15" />
               </svg>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora provident neque temporibus omnis molestias assumenda facere magni, vitae dolorum quasi?</p>
+        <p class="servicio__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora provident neque temporibus omnis molestias assumenda facere magni, vitae dolorum quasi?</p>
     </section>
 </div>
     </main>
 
     <section class="contacto">
-        <h2>Contacto</h2>
+        <h2 class="contacto__subtitulo">Contacto</h2>
         <form class="formulario">
             <fieldset>
                 
                 <div class="contenedor-campos">
                     <div class="campo">
-                        <input type="text" placeholder="Nombre" required>
+                        <input type="text" class="campo__input" placeholder="Nombre" required>
                     </div>
                     <div class="campo">
-                        <input type="tel" placeholder="WhatsApp" required>
+                        <input type="tel" class="campo__input" placeholder="WhatsApp" required>
                     </div>
                     <div class="campo">
-                        <input type="email" placeholder="Email" required>
+                        <input type="email" class="campo__input" placeholder="Email" required>
                     </div>
                     <div class="campo">
-                        <textarea placeholder="Mensaje" required></textarea>
+                        <textarea class="campo__textarea" placeholder="Mensaje" required></textarea>
                     </div>    
                 </div>
                 
@@ -128,8 +130,8 @@
     </section>
 
     <footer class="footer">
-        <p>Derechos Reservados. Francisco</p>
-        <img src="img/g.png"> 
+        <p class="footer__texto">Derechos Reservados. Francisco</p>
+        <img class="footer__img" src="img/g.png"> 
     </footer>
 
 </body>

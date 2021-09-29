@@ -20,11 +20,11 @@ body {
     border: .3rem solid #fff;
     border-radius: .8rem;
 }
-header {
+.header {
     background: #122;
     padding: 2rem;
 }   
-.titulo  {
+.header__titulo  {
     font-weight: normal;
     text-align: center;
     font-size: 4rem;
@@ -33,7 +33,7 @@ header {
 #bar {
     display: none;
 }
-.menu {
+.nav-bg__label {
     color: #fff;
     font-size: 3.6rem;
     margin-left: 1rem;
@@ -61,12 +61,12 @@ header {
     transform-origin: 0 0;
     transition: all .5s;
 }
-.nav a {
+.nav__a {
     color: #fff;
     padding: 2rem;
     text-decoration: none;
 }
-.nav a:hover {
+.nav__a:hover {
     background: rgba(0,0,0,.6);
 }
 #bar:checked ~ .nav {
@@ -89,14 +89,14 @@ header {
     flex-direction: column;
     align-items: center;
 }
-.contenido-lap h2 {
+.lap__subtitulo {
     color: #fff;
     font-weight: normal;
     font-size: 2.8rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
-.contenido-lap p {
+.lap__texto  {
     color: #fff;
     font-size: 1.6rem;
 }
@@ -107,7 +107,7 @@ header {
     border-radius: .8rem;
     margin-bottom: 2rem;
 }
-.sombra h2 {
+.sombra__subtitulo  {
     color: #fff;
     font-weight: normal;
     font-size: 3.2rem;
@@ -117,17 +117,17 @@ header {
 }
 
 
-.servicio h3 {
+.servicio__subtitulo {
     font-weight: normal;
     font-size: 2.4rem;
     color: #fff;
 }
-.servicio p {
+.servicio__texto {
     font-size: 1.6rem;
     color: #fff;
     text-align: center;   
 }
-.contacto h2 {
+.contacto__subtitulo {
     font-weight: normal;
     font-size: 3.2rem;
     color: #fff;
@@ -140,7 +140,7 @@ header {
     flex-direction: column;
     align-items: center;
 }
-.servicio .iconos {
+.servicio__iconos {
     width: 15rem;
     height: 15rem;
     background: #333;
@@ -160,7 +160,7 @@ header {
     border-radius: .8rem;
     margin-bottom: 2rem;
 }
-.formulario fieldset {
+.formulario__fieldset {
         border: none;
 }
 .contenedor-campos {
@@ -172,7 +172,7 @@ header {
 .campo {
     margin-bottom: 2rem;
 }
-.campo input {
+.campo__input {
     display: block;
     width: 100%;
     background: #222;
@@ -182,7 +182,7 @@ header {
     border: .2rem solid #fff;
     border-radius: .8rem;
 }
-.campo textarea {
+.campo__textarea {
     display: block;
     background: #222;
     color: #fff;
@@ -196,10 +196,10 @@ header {
     border: .2rem solid #fff;
     border-radius: .8rem;
 }
-.campo input::placeholder {
+.campo__input::placeholder {
     color: #fff;
 }
-.campo textarea::placeholder {
+.campo__textarea::placeholder {
     font-family: 'Roboto Condensed', sans-serif;
     color: #fff;
 }
@@ -218,11 +218,11 @@ header {
     background: #344;
     padding: 1rem;
 }
-.footer p {
+.footer__texto {
     color: #fff;
     font-size: 1.4rem;
 }
-.footer img {
+.footer__img {
     width: 2.4rem;
 }
 
@@ -234,7 +234,7 @@ header {
         height: 60px;
         transform: scale(1);
     }
-    .menu {
+    .nav-bg__label {
         display: none;
     }
     .servicios {
