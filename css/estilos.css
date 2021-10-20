@@ -9,7 +9,6 @@ html {
 body {
     font-family: 'Roboto Condensed', sans-serif;
     background: #222;
-    overflow: hidden;
 }
 .btn {
     background: rgba(34,34,34,.2);
