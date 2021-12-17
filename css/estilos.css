@@ -11,7 +11,7 @@ body {
     padding: 0;
 }
 .btn {
-    background: rgba(34,34,34,.2);
+    background: #300;
     color: #fff;
     font-size: 2rem;
     margin-top: 30px;
@@ -30,15 +30,17 @@ body {
     font-size: 4rem;
     color: #fff;
 }
-.header__uno, .header__dos {
+.nav {
     background: #233;
+}
+.nav__abrir {
     color: #fff;
     font-size: 3.2rem;
     line-height: 4.2rem;
     margin-left: 1rem;
     margin-bottom: 1rem;
     cursor: pointer;
-    padding: 0 1.6rem;
+    padding: 0 0.8rem;
     border: .2rem solid;
     border-radius: .4rem;
     text-decoration: none;
@@ -49,37 +51,36 @@ body {
     margin: 0 auto;
 }
 .menu {
+    position: absolute;
+    top: 20rem;
+    left: 8rem;
+    z-index: 100;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgba(51,68,68,.9);
+    background: rgb(51,68,68);
     font-size: 2rem;
-    position: absolute;
-    left: 8rem;
     width: 70%;
-    height: 70vh;
-    z-index: 1;
+    height: 0;
+    margin: 0;
+    padding: 0;
     border-radius: 1.6rem;
-    transform: scale(0);
-    transform-origin: 0 0;
-    transition: all .5s;
+    overflow: hidden;
+    transition: height .5s linear;
 }
-.menu__link {
+.menu__enlace {
     color: #fff;
     padding: 2rem;
     text-decoration: none;
 }
-.menu__link:nth-child(1) {
-    margin-top: 50px;
-}
-.menu__link:hover {
+.menu__enlace:hover {
     background: rgba(0,0,0,.6);
     border-radius: 1.6rem;
 }
-.menu:target {
-    transform: scale(1);
+.mostrar {
+    height: 260px;
 }
-.lap {
+.hero {
     background-image: url(../img/lap.jpg);
     background-repeat: no-repeat;
     height: 450px;
@@ -87,7 +88,7 @@ body {
     position: relative;
     margin-bottom: 2rem;
 }
-.contenido-lap {
+.contenido-hero {
     position: absolute;
     background: rgb(0 0 0 / 80%);
     width: 100%;
@@ -96,14 +97,14 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.lap__subtitulo {
+.hero__titulo {
     color: #fff;
     font-weight: normal;
     font-size: 2.8rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
-.lap__texto  {
+.hero__texto  {
     color: #fff;
     font-size: 1.6rem;
 }
@@ -114,7 +115,7 @@ body {
     border-radius: .8rem;
     margin-bottom: 2rem;
 }
-.sombra__subtitulo  {
+.sombra__titulo  {
     color: #fff;
     font-weight: normal;
     font-size: 3.2rem;
@@ -124,7 +125,7 @@ body {
 }
 
 
-.servicio__subtitulo {
+.servicio__titulo {
     font-weight: normal;
     font-size: 2.4rem;
     color: #fff;
@@ -134,7 +135,7 @@ body {
     color: #fff;
     text-align: center;   
 }
-.contacto__subtitulo {
+.contacto__titulo {
     font-weight: normal;
     font-size: 3.2rem;
     color: #fff;
@@ -182,7 +183,7 @@ body {
 .campo__input {
     display: block;
     width: 100%;
-    background: #222;
+    background: #300;
     color: #fff;
     font-size: 1.6rem;
     padding: 1rem;
@@ -191,7 +192,7 @@ body {
 }
 .campo__textarea {
     display: block;
-    background: #222;
+    background: #300;
     color: #fff;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.6rem;
@@ -243,10 +244,7 @@ body {
         border-radius: 0;
         transform: scale(1);
     }
-    .menu__link:nth-child(1) {
-        margin-top: 0;
-    }
-    .header__uno, .header__dos {
+    .nav__abrir {
         display: none;
     }
     .servicios {

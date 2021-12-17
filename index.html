@@ -16,23 +16,23 @@
         <h1 class="header__titulo">Francisco G Valdez M.</h1>
     </header>
 
-        
-            <a href="#menu" class="header__uno">&#8801</a>
-            <a href="#" class="header__dos">&times;</a>
+        <nav class="nav">
+
+            <span class="nav__abrir" id="abrirmenu">&#8801</span>
        
     
-        <nav class="menu" id="menu">
-            <a class="menu__link" href="#">Inicio</a>
-            <a class="menu__link" href="#">Sobre mi</a>
-            <a class="menu__link" href="#">Clientes</a>
-            <a class="menu__link" href="#">Contacto</a>
+        <div class="menu" id="menu">
+            <a class="menu__enlace" href="#">Inicio</a>
+            <a class="menu__enlace" href="#">Sobre mi</a>
+            <a class="menu__enlace" href="#">Clientes</a>
+            <a class="menu__enlace" href="#">Contacto</a>
         </nav>
     
-    <section class="lap">
-        <div class="contenido-lap">
-            <h2 class="lap__subtitulo">Diseño y Desarrollo Web</h2>
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2 class="hero__titulo">Diseño y Desarrollo Web</h2>
             
-            <p class="lap__texto">
+            <p class="hero__texto">
                 <svg class="lap__icono" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <circle cx="12" cy="11" r="3" />
@@ -44,12 +44,12 @@
     </section>
 
     <main class=" contenedor sombra">
-        <h2 class="sombra__subtitulo">Mis Servicios</h2>
+        <h2 class="sombra__titulo">Mis Servicios</h2>
 
         <div class="servicios">
 
     <section class="servicio">
-        <h3 class="servicio__subtitulo">Diseño Web</h3>
+        <h3 class="servicio__titulo">Diseño Web</h3>
         <div class="iconos">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-palette" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -63,7 +63,7 @@
     </section>
 
     <section class="servicio">
-        <h3 class="servicio__subtitulo">movil apps</h3>
+        <h3 class="servicio__titulo">movil apps</h3>
         <div class="iconos">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-android" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -85,7 +85,7 @@
     </section>
 
     <section class="servicio">
-        <h3 class="servicio__subtitulo">Ecommerce</h3>
+        <h3 class="servicio__titulo">Ecommerce</h3>
         <div class="iconos">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-credit-card" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -101,37 +101,37 @@
     </main>
 
     <section class="contacto">
-        <h2 class="contacto__subtitulo">Contacto</h2>
+        <h2 class="contacto__titulo">Contacto</h2>
         <form class="formulario">
-            <fieldset class="formulario__fieldset">
-                
-                <div class="contenedor-campos">
-                    <div class="campo">
-                        <input type="text" class="campo__input" placeholder="Nombre" required>
-                    </div>
-                    <div class="campo">
-                        <input type="tel" class="campo__input" placeholder="WhatsApp" required>
-                    </div>
-                    <div class="campo">
-                        <input type="email" class="campo__input" placeholder="Email" required>
-                    </div>
-                    <div class="campo">
-                        <textarea class="campo__textarea" placeholder="Mensaje" required></textarea>
-                    </div>    
+            <div class="contenedor-campos">
+
+                <div class="campo">
+                    <input type="text" class="campo__input" placeholder="Nombre" required>
                 </div>
+                <div class="campo">
+                    <input type="tel" class="campo__input" placeholder="WhatsApp" required>
+                </div>
+                <div class="campo">
+                    <input type="email" class="campo__input" placeholder="Email" required>
+                </div>
+                <div class="campo">
+                    <textarea class="campo__textarea" placeholder="Mensaje" required></textarea>
+                </div>    
+            </div>
                 
                 <div class="flex">
                     <input type="submit" class="btn" value="Enviar">
                 </div>
                 
-            </fieldset>
         </form>
     </section>
 
     <footer class="footer">
-        <p class="footer__texto">Francisco.</p>
+        <p class="footer__texto">Francisco</p>
         <img class="footer__img" src="img/f-1.png"> 
     </footer>
+
+    <script src="js/menu.js"></script>
 
 </body>
 </html>
